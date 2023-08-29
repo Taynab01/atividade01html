@@ -5,7 +5,7 @@ body {
 }
 
 .cabecalho {
-    padding: 6px;
+    padding: 12px;
     background: #00ff88;
 }
 
@@ -18,15 +18,22 @@ h1 {
 }
 
 .preenchimento {
-    width: 14%;
-    padding: 4px;
-    font-size: 1.1em;
+    width: 15%;
+    padding: 0.5px;
+    font-size: 1.0.3em;
     background: #00ff88;
-    margin-top: 24px;
+    margin-top: 22px;
+    text-shadow: 2px 2px 4px rgb(0, 0, 0);
+    text-overflow: ellipsis;
+    margin: 20px;
+}
+
+p {
+    color: #f9fcfa;
 }
 
 ol {
-    color: rgb(12, 12, 12);
+    color: rgb(8, 8, 8);
 }
 
 li {
@@ -35,7 +42,7 @@ li {
 
 dd {
     width: 50%;
-    color: rgb(12, 11, 11);
+    color: rgb(8, 8, 8);
     font-size: 20px
 }
 
@@ -49,6 +56,7 @@ dt {
     font-size: 20px
 }
 
-l {
+h2,
+h3 {
     color: #f9fcfa
 }
